@@ -1,5 +1,7 @@
 # Awesome Green SE
 
+<img src="img/logo_awesome_greense.png" alt="Awesome Green SE logo" width="150"/>
+
 A meeting point for making Software Engineering greener, with a list of tools, research, and useful websites. This initiative is led by academia researchers; however, industry collaborators are more than welcome. We aim to bridge research and industry to make software development more energy‑aware and environmentally friendly.
 
 ## General
