@@ -18,9 +18,14 @@ A meeting point for making Software Engineering greener, with a list of tools, r
 - **Virtual Meet‑ups** – XXX webinars on topics such as “Measuring Code Energy Use” and “Green CI/CD”. Recordings posted on the YouTube playlist: <https://youtube.com/playlist?list=XXX>  
 - **Annual Hackathon (online)** – “Green Code Sprint” (usually in XXX) to promote green software development. WDYT?
 
-## Other Repositories
+## Green Initiatives
 
-TBA: from the handout material...
+- **Green PT**: GreenPT is a GPT-powered chat platform, and robust API, running on renewable energy and hosted in Europe for strict data protection.
+- **Ecosia**: Ecosia is a Web Browser and Search Engine that uses its profits for the planet and produces enough renewable energy to power all searches twice over.
+
+## Green Labs Around the Globe
+
+TBA
 
 ## List of Books
 
