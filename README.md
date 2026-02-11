@@ -9,10 +9,12 @@ A meeting point for making Software Engineering greener, with a list of tools, r
 - **Mission** – Promote sustainable software practices, reduce the carbon footprint of development pipelines, and share actionable knowledge.  
 - **Scope** – Covers design, coding, testing, CI/CD, cloud deployment, and other SE-related considerations.  
 - **Community** – Open to students, researchers, developers, DevOps engineers, and sustainability advocates/players.
+- **Core Knowledge on Green SE** - We also keep a document as a starting point for knowledge on Green SE [here](https://www.overleaf.com/read/dmwsnqxnqnfx#9e583b). If you want to collaborate in writing the document, ask one of the mainteiners.
 
 ## Meet Us
 
 - **Discord** – <https://discord.gg/green-se> (join `#general`, `#tool-talk`, `#research-share`)  
+- **LinkedIn profile** - We keep the community informed exclusivelly via LinkedIn. If you want to be an informed outsider, please, follow us there.
 - **Virtual Meet‑ups** – XXX webinars on topics such as “Measuring Code Energy Use” and “Green CI/CD”. Recordings posted on the YouTube playlist: <https://youtube.com/playlist?list=XXX>  
 - **Annual Hackathon (online)** – “Green Code Sprint” (usually in XXX) to promote green software development. WDYT?
 
