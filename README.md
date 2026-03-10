@@ -53,16 +53,20 @@ TBA
 
 ## List of Tools
 
-| Category         | Tool         | Description                                                                                     | Link                                         |
-| ---------------- | ------------ | ----------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| Energy Profiling | CodeCarbon   | Python library that logs energy use of scripts and notebooks.                                   | <https://github.com/mlco2/codecarbon>        |
-| Energy Profiling | Perf         | Linux performance analysis tool with hardware counters for profiling CPU energy-related events. | <https://perf.wiki.kernel.org/>              |
-| Energy Profiling | Kepler       | Open-source tool for measuring GPU/CPU power and energy consumption in ML workloads.            | <https://github.com/NVIDIA/Kepler>           |
-| Energy Profiling | JoularCore   | Java library for measuring energy consumption at method and process level.                      | <https://github.com/greenspector/joularcore> |
-| Energy Profiling | EnergiBridge | Framework bridging software metrics to hardware energy measurements.                            | <https://github.com/gatech-cc/energi-bridge> |
-| Energy Profiling | Smartwatts   | Fine-grained power estimation model for software energy profiling.                              | <https://github.com/greenspector/SmartWatts> |
-| Energy Profiling | Scaphandre   | Open-source tool for system-wide power consumption monitoring.                                  | <https://github.com/hubbobubbo/scaphandre>   |
-| Energy Profiling | Powerletrics | Power modeling tool for server energy estimation.                                               | <https://powerletrics.github.io/>            |
+### RAPL-based Tools
+
+| Category             | Tool             | Description                                                                              | Link                                                       |
+| -------------------- | ---------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Energy Profiling** | **CodeCarbon**   | Python library that logs energy use of scripts and notebooks.                            | [Link](https://github.com/mlco2/codecarbon)                |
+| **Energy Profiling** | **Perf**         | Linux kernel-based performance and energy counter tool for CPU-level profiling.          | [Link](https://perf.wiki.kernel.org)                       |
+| **Energy Profiling** | **Kepler**       | Kubernetes-based energy profiling tool that exposes power metrics via Prometheus.        | [Link](https://github.com/sustainable-computing-io/kepler) |
+| **Energy Profiling** | **JoularCore**   | Java-based energy monitoring tool for measuring application-level power consumption.     | [Link](https://github.com/joular/joularcore)               |
+| **Energy Profiling** | **EnergiBridge** | Cross-platform energy measurement library bridging hardware counters to software.        | [Link](https://github.com/tdurieux/EnergiBridge)           |
+| **Energy Profiling** | **Smartwatts**   | Formula-based power model that estimates per-process energy use from hardware counters.  | [Link](https://github.com/powerapi-ng/smartwatts-formula)  |
+| **Energy Profiling** | **Scaphandre**   | Open-source energy monitoring agent for bare metal and virtualized environments.         | [Link](https://github.com/hubblo-org/scaphandre)           |
+| **Energy Profiling** | **Powerletrics** | macOS-native tool (built into `powermetrics`) for measuring CPU, GPU, and package power. | [Link](https://www.unix.com/man-page/osx/8/powermetrics)   |
+
+### Hardware Power Meters
 
 # CONTRIBUTING
 
