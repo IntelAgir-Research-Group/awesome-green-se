@@ -25,11 +25,10 @@ A meeting point for making Software Engineering greener, with a list of tools, r
 
 ## Green Labs Around the Globe
 
-| Name             | Administrator/Responsible       | Local | Web Page                      |
-| ----------------- | ------------- | ---- | -------------------------- |
-| GreenLab | Vincenzo Stoicco | S2 Group@VU Amsterdam, NL | [GitHub](https://github.com/S2-group/green-lab) |
-| Sustainable Software Engineering (S2E) Lab | Michel Albonico | SDU Vejle, DK | [TBA](#) |
-
+| Name                                       | Administrator/Responsible | Local                     | Web Page                                        |
+| ------------------------------------------ | ------------------------- | ------------------------- | ----------------------------------------------- |
+| GreenLab                                   | Vincenzo Stoicco          | S2 Group@VU Amsterdam, NL | [GitHub](https://github.com/S2-group/green-lab) |
+| Sustainable Software Engineering (S2E) Lab | Michel Albonico           | SDU Vejle, DK             | [TBA](#)                                        |
 
 ## List of Tools
 
@@ -43,72 +42,77 @@ A meeting point for making Software Engineering greener, with a list of tools, r
 | Measurement Unit           | Otii Arc Pro                   | Measures voltage/current for embedded systems energy optimization.                                                                                                                                                    | [Link](https://www.qoitech.com/otii-arc-pro/)                                                                     |
 | PDU                        | Rittal Power Distribution Unit | Network-monitored rack PDU for real-time voltage, current, and power tracking in IT rack deployments.                                                                                                                 | [Link](https://www.rittal.com/com-en/products/PG0800ITINFRA1/PG7274ITINFRA1/PGR11260ITINFRA1)                     |
 | Add on card (Dell only)    | iDRAC                          | Embedded controller in Dell PowerEdge servers for out-of-band power monitoring; tracks cumulative, peak, and average power consumption via web UI.                                                                    | [Link](https://www.dell.com/support/kbdoc/en-us/000391164/poweredge-how-to-monitor-server-health-from-the-idrac9) |
-| Add on card (Multi-vendor) | IPMI                           | Vendor-neutral out-of-band interface for server power monitoring via `ipmitool`; works on most Intel and AMD server-class hardware from Dell, HP, Lenovo, Supermicro, and others. Not supported on ARM or FPGA nodes. | [Link](https://www.manageengine.com/network-monitoring/ipmi-monitoring.html)                                     |
-
+| Add on card (Multi-vendor) | IPMI                           | Vendor-neutral out-of-band interface for server power monitoring via `ipmitool`; works on most Intel and AMD server-class hardware from Dell, HP, Lenovo, Supermicro, and others. Not supported on ARM or FPGA nodes. | [Link](https://www.manageengine.com/network-monitoring/ipmi-monitoring.html)                                      |
 
 ### Software Profilers
 
 This list has been initially compiled in [this](https://arxiv.org/abs/2603.21772) study.
 
-| URL | Repo Name | Description |
-|---|---|---|
-| https://github.com/ColinIanKing/powerstat | ColinIanKing/powerstat | Powerstat measures the power consumption of a machine using the battery stats or the Intel RAPL interface. The output is like vmstat but also shows power consumption statistics. At the end of a run, powerstat will calculate the average, standard deviation and min/max of the gathered data. |
-| https://github.com/powerapi-ng/pyRAPL | powerapi-ng/pyRAPL | A library to measure the Python energy consumption of Python code. |
-| https://github.com/powerapi-ng/pyJoules | powerapi-ng/pyJoules | A Python library to capture the energy consumption of code snippets. |
-| https://github.com/hubblo-org/scaphandre | hubblo-org/scaphandre | ⚡ Energy consumption metrology agent. Let "scaph" dive and bring back the metrics that will help you make your systems and applications more sustainable! |
-| https://github.com/mlco2/codecarbon | mlco2/codecarbon | Track emissions from compute and recommend ways to reduce their impact on the environment. |
-| https://github.com/trulyspinach/SMCAMDProcessor | trulyspinach/SMCAMDProcessor | Power management, monitoring, and VirtualSMC plugin for AMD processors. |
-| https://github.com/saintslab/carbontracker | saintslab/carbontracker | Track and predict the energy consumption and carbon footprint of training deep learning models. |
-| https://github.com/enp1s0/gpu_monitor | enp1s0/gpu_monitor | Records GPU temperature, power consumption, and memory usage while executing programs on GPUs. |
-| https://github.com/joular/powerjoular | joular/powerjoular | PowerJoular allows monitoring power consumption of multiple platforms and processes. |
-| https://github.com/joular/joularjx | joular/joularjx | JoularJX is a Java-based agent for software power monitoring at the source code level on all OSes. |
-| https://github.com/sustainable-computing-io/kepler | sustainable-computing-io/kepler | Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption metrics at the container, pod, and node levels in Kubernetes clusters. |
-| https://github.com/ml-energy/zeus | ml-energy/zeus | Measure and optimize the energy consumption of your AI applications! |
-| https://github.com/sb-ai-lab/Eco2AI | sb-ai-lab/Eco2AI | eco2AI is a Python library that accumulates statistics about power consumption and CO2 emission during running code. |
-| https://github.com/green-coding-solutions/green-metrics-tool | green-coding-solutions/green-metrics-tool | Measure energy consumption and carbon emissions of software - timelines, git integration, comparisons, dashboards, and optimizations included. |
-| https://github.com/fvaleye/tracarbon | fvaleye/tracarbon | 🌍 Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location. |
-| https://github.com/graelo/pumas | graelo/pumas | Power Usage Monitor for Apple Silicon. |
-| https://github.com/Root-Branch/cardamon-core | Root-Branch/cardamon-core | 🌱 A tool for measuring the power consumption and carbon footprint of your software. |
-| https://github.com/tdurieux/EnergiBridge | tdurieux/EnergiBridge | Energibridge is a cross-platform energy measurement utility that provides support for Linux, Windows, and macOS, as well as Intel, AMD, and Apple ARM CPU architectures. |
-| https://github.com/maufadel/EnergyMeter | maufadel/EnergyMeter | A Python tool to measure the energy consumption of software. |
-| https://github.com/mlco2/ecologits | mlco2/ecologits | 🌱 EcoLogits tracks the energy consumption and environmental footprint of using generative AI models through APIs. |
-| https://github.com/wattwisegames/watt-wiser | wattwisegames/watt-wiser | Tools to measure and visualize energy use on desktop computers. |
-| https://github.com/FairCompute/energy-monitoring-tool | FairCompute/energy-monitoring-tool | Enabling digital sustainability through granular energy measurement. |
-| https://github.com/superdango/cloud-carbon-exporter | superdango/cloud-carbon-exporter | Estimates energy consumption and CO2 emissions of your cloud resources in real time. |
-| https://github.com/NOVADEDOG/energy-leaderboard-runner | NOVADEDOG/energy-leaderboard-runner | Open-source energy benchmark for local LLMs. Measures Wh and CO2 using real hardware sensors (RAPL, NVML, powermetrics). |
-| https://github.com/jordond/jolt | jordond/jolt | ⚡️ A terminal-based battery and energy monitor for macOS and Linux. |
-| https://github.com/alumet-dev/alumet |	alumet-dev/alumet |	Next-gen monitoring tool with high-frequency energy measurement |
-
+| URL                                                            | Repo Name                                 | Description                                                                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <https://github.com/ColinIanKing/powerstat>                    | ColinIanKing/powerstat                    | Powerstat measures the power consumption of a machine using the battery stats or the Intel RAPL interface. The output is like vmstat but also shows power consumption statistics. At the end of a run, powerstat will calculate the average, standard deviation and min/max of the gathered data. |
+| <https://github.com/powerapi-ng/pyRAPL>                        | powerapi-ng/pyRAPL                        | A library to measure the Python energy consumption of Python code.                                                                                                                                                                                                                                |
+| <https://github.com/powerapi-ng/pyJoules>                      | powerapi-ng/pyJoules                      | A Python library to capture the energy consumption of code snippets.                                                                                                                                                                                                                              |
+| <https://github.com/hubblo-org/scaphandre>                     | hubblo-org/scaphandre                     | ⚡ Energy consumption metrology agent. Let "scaph" dive and bring back the metrics that will help you make your systems and applications more sustainable!                                                                                                                                        |
+| <https://github.com/mlco2/codecarbon>                          | mlco2/codecarbon                          | Track emissions from compute and recommend ways to reduce their impact on the environment.                                                                                                                                                                                                        |
+| <https://github.com/trulyspinach/SMCAMDProcessor>              | trulyspinach/SMCAMDProcessor              | Power management, monitoring, and VirtualSMC plugin for AMD processors.                                                                                                                                                                                                                           |
+| <https://github.com/saintslab/carbontracker>                   | saintslab/carbontracker                   | Track and predict the energy consumption and carbon footprint of training deep learning models.                                                                                                                                                                                                   |
+| <https://github.com/enp1s0/gpu_monitor>                        | enp1s0/gpu_monitor                        | Records GPU temperature, power consumption, and memory usage while executing programs on GPUs.                                                                                                                                                                                                    |
+| <https://github.com/joular/powerjoular>                        | joular/powerjoular                        | PowerJoular allows monitoring power consumption of multiple platforms and processes.                                                                                                                                                                                                              |
+| <https://github.com/joular/joularjx>                           | joular/joularjx                           | JoularJX is a Java-based agent for software power monitoring at the source code level on all OSes.                                                                                                                                                                                                |
+| <https://github.com/sustainable-computing-io/kepler>           | sustainable-computing-io/kepler           | Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption metrics at the container, pod, and node levels in Kubernetes clusters.                                                                                                         |
+| <https://github.com/ml-energy/zeus>                            | ml-energy/zeus                            | Measure and optimize the energy consumption of your AI applications!                                                                                                                                                                                                                              |
+| <https://github.com/sb-ai-lab/Eco2AI>                          | sb-ai-lab/Eco2AI                          | eco2AI is a Python library that accumulates statistics about power consumption and CO2 emission during running code.                                                                                                                                                                              |
+| <https://github.com/green-coding-solutions/green-metrics-tool> | green-coding-solutions/green-metrics-tool | Measure energy consumption and carbon emissions of software - timelines, git integration, comparisons, dashboards, and optimizations included.                                                                                                                                                    |
+| <https://github.com/fvaleye/tracarbon>                         | fvaleye/tracarbon                         | 🌍 Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location.                                                                                                                                                                                    |
+| <https://github.com/graelo/pumas>                              | graelo/pumas                              | Power Usage Monitor for Apple Silicon.                                                                                                                                                                                                                                                            |
+| <https://github.com/Root-Branch/cardamon-core>                 | Root-Branch/cardamon-core                 | 🌱 A tool for measuring the power consumption and carbon footprint of your software.                                                                                                                                                                                                              |
+| <https://github.com/tdurieux/EnergiBridge>                     | tdurieux/EnergiBridge                     | Energibridge is a cross-platform energy measurement utility that provides support for Linux, Windows, and macOS, as well as Intel, AMD, and Apple ARM CPU architectures.                                                                                                                          |
+| <https://github.com/maufadel/EnergyMeter>                      | maufadel/EnergyMeter                      | A Python tool to measure the energy consumption of software.                                                                                                                                                                                                                                      |
+| <https://github.com/mlco2/ecologits>                           | mlco2/ecologits                           | 🌱 EcoLogits tracks the energy consumption and environmental footprint of using generative AI models through APIs.                                                                                                                                                                                |
+| <https://github.com/wattwisegames/watt-wiser>                  | wattwisegames/watt-wiser                  | Tools to measure and visualize energy use on desktop computers.                                                                                                                                                                                                                                   |
+| <https://github.com/FairCompute/energy-monitoring-tool>        | FairCompute/energy-monitoring-tool        | Enabling digital sustainability through granular energy measurement.                                                                                                                                                                                                                              |
+| <https://github.com/superdango/cloud-carbon-exporter>          | superdango/cloud-carbon-exporter          | Estimates energy consumption and CO2 emissions of your cloud resources in real time.                                                                                                                                                                                                              |
+| <https://github.com/NOVADEDOG/energy-leaderboard-runner>       | NOVADEDOG/energy-leaderboard-runner       | Open-source energy benchmark for local LLMs. Measures Wh and CO2 using real hardware sensors (RAPL, NVML, powermetrics).                                                                                                                                                                          |
+| <https://github.com/jordond/jolt>                              | jordond/jolt                              | ⚡️ A terminal-based battery and energy monitor for macOS and Linux.                                                                                                                                                                                                                              |
+| <https://github.com/alumet-dev/alumet>                         | alumet-dev/alumet                         | Next-gen monitoring tool with high-frequency energy measurement                                                                                                                                                                                                                                   |
 
 ## Literature
 
 ### List of Books
 
-| Title             | Authors/Editors       | Year | Notes                      |
-| ----------------- | ------------- | ---- | -------------------------- |
-| *Building Green Software: A Sustainable Approach to Software Development and Operations* | Anne Currie, Sarah Hsu, and Sara Bergman | 2024 | Techniques and metrics in the green software development process. | [LINK](https://www.amazon.com/Building-Green-Software-Sustainable-Development/dp/1098150627) |
-| *Green in Software Engineering* |  Coral Calero, and Mario Piattini  | 2016 | Fundamentals of Green Software Engineering. | [LINK](https://www.amazon.com/Green-Software-Engineering-Coral-Calero/dp/3319361090) |
+| Title                                                                                    | Authors/Editors                          | Year | Notes                                                             |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------- | ---- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| _Building Green Software: A Sustainable Approach to Software Development and Operations_ | Anne Currie, Sarah Hsu, and Sara Bergman | 2024 | Techniques and metrics in the green software development process. | [LINK](https://www.amazon.com/Building-Green-Software-Sustainable-Development/dp/1098150627) |
+| _Green in Software Engineering_                                                          | Coral Calero, and Mario Piattini         | 2016 | Fundamentals of Green Software Engineering.                       | [LINK](https://www.amazon.com/Green-Software-Engineering-Coral-Calero/dp/3319361090)         |
 
 ### Other Sources
 
-| **Source** | **Description** | **Link** |
-|---|---|---|
-| *Green Software Foundation* | **Website** of the best-known non-profit foundation aimed at building a trusted ecosystem of people, standards, tools, and best practices for creating sustainable software. | [LINK](https://greensoftware.foundation/) |
-| *GreenIT on a Cloud* | **Podcast** about successful sustainability cases in information technology environments. | [LINK](https://open.spotify.com/show/1oSqlKOSOf9W4cELSoUewS) |
-| *Sustainable Software Engineering* | **Course** covering the main topics related to Green Software Engineering. | [PDF](https://learn.microsoft.com/en-us/training/modules/sustainable-software-engineering-overview/) |
-| *Making software and data architectures more sustainable* | **Online article** about making software and data structures more sustainable. | [LINK](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward/making-software-and-data-architectures-more-sustainable) |
-| *Green Software Engineering -- Developer Guide* | **Guide** on Green Software Engineering issues for software developers. | [LINK](https://fuller.com.au/wp-content/uploads/2023/02/Green-Software-Engineering-Full-Guide-Feb-2023-Fuller-Brand-Communication.pdf) |
-| *Green Software Engineering Done Right* | **Online article** with guidance on how researchers can organize experiments in energy efficiency. | [LINK](https://luiscruz.github.io/2021/10/10/scientific-guide.html) |
-| *Measuring the Emissions -- Energy Footprint of the ICT Sector* | **World Bank report** about energy consumption and greenhouse gas emissions worldwide. | [LINK](https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859712a98880541a4b71d57876048abb.pdf) |
-
+| **Source**                                                      | **Description**                                                                                                                                                              | **Link**                                                                                                                                         |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| _Green Software Foundation_                                     | **Website** of the best-known non-profit foundation aimed at building a trusted ecosystem of people, standards, tools, and best practices for creating sustainable software. | [LINK](https://greensoftware.foundation/)                                                                                                        |
+| _GreenIT on a Cloud_                                            | **Podcast** about successful sustainability cases in information technology environments.                                                                                    | [LINK](https://open.spotify.com/show/1oSqlKOSOf9W4cELSoUewS)                                                                                     |
+| _Sustainable Software Engineering_                              | **Course** covering the main topics related to Green Software Engineering.                                                                                                   | [PDF](https://learn.microsoft.com/en-us/training/modules/sustainable-software-engineering-overview/)                                             |
+| _Making software and data architectures more sustainable_       | **Online article** about making software and data structures more sustainable.                                                                                               | [LINK](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward/making-software-and-data-architectures-more-sustainable) |
+| _Green Software Engineering -- Developer Guide_                 | **Guide** on Green Software Engineering issues for software developers.                                                                                                      | [LINK](https://fuller.com.au/wp-content/uploads/2023/02/Green-Software-Engineering-Full-Guide-Feb-2023-Fuller-Brand-Communication.pdf)           |
+| _Green Software Engineering Done Right_                         | **Online article** with guidance on how researchers can organize experiments in energy efficiency.                                                                           | [LINK](https://luiscruz.github.io/2021/10/10/scientific-guide.html)                                                                              |
+| _Measuring the Emissions -- Energy Footprint of the ICT Sector_ | **World Bank report** about energy consumption and greenhouse gas emissions worldwide.                                                                                       | [LINK](https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859712a98880541a4b71d57876048abb.pdf)                               |
 
 ### Academic Papers
 
 #### 2026
 
 - Cannizza, M. B., & Albonico, M. (2026). **A Curated List of Open-source Software-only Energy Efficiency Measurement Tools: A GitHub Mining Study**. Accepted at GreenArch Workshop@ICSA [PDF](https://arxiv.org/pdf/2603.21772)
+- Mehditabar, Mohammadjavad, Saurabhsingh Rajput, and Tushar Sharma. "A Validated Taxonomy on Software Energy Smells.", [PDF](https://arxiv.org/pdf/2604.04809)
+- Solovyeva, L. and Castor, F., 2026. Towards Green AI: Decoding the Energy of LLM Inference in Software Development [PDF](https://arxiv.org/pdf/2602.05712)
 
 #### 2025
+
+Stoico, V., Dragomir A. C., and Lago P.. "An empirical study on the performance and energy usage of compiled python code." In Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering, [PDF](https://dl.acm.org/doi/pdf/10.1145/3756681.3756972)
+
+- Apsan, Radu, Vincenzo Stoico, Michel Albonico, Rudra Dhar, Karthik Vaidhyanathan, and Ivano Malavolta. "Generating Energy-Efficient Code via Large-Language Models--Where are we now?.", [PDF](https://arxiv.org/pdf/2509.10099?)
+
+- Lago, Patricia, and Ivano Malavolta. "A New Vision on Software Sustainability and Its Engineering." IEEE Software 43, [PDF](https://ieeexplore.ieee.org/iel8/52/11316879/11316890.pdf?casa_token=fM9OxXXP_ycAAAAA:Gk8eU2Zt1jnLbxjULkE8Cb4YLfXFdjcGl-7PC0VEPS9A1zMwss4IFDgnLa_nYsOJ3C1agPMQFbMQLw)
 
 - Poenaru-Olaru, L., Sallou, J., Cruz, L., Rellermeyer, J., & van Deursen, A. (2025). **Sustainable Machine Learning Retraining: Optimizing Energy Efficiency Without Compromising Accuracy**. arXiv preprint arXiv:2506.13838. [PDF](https://drive.google.com/file/d/1uFizKXssrtm2eLDhA1cn2H7zf2lrS8xk/view?usp=sharing)
 
@@ -122,6 +126,8 @@ This list has been initially compiled in [this](https://arxiv.org/abs/2603.21772
 
 - Solovyeva, L., Weidmann, S., & Castor, F. (2025). **AI-Powered, But Power-Hungry? Energy Efficiency of LLM-Generated Code**. arXiv preprint arXiv:2502.02412. [PDF](https://drive.google.com/file/d/1wt7VxQw-HdkdWw_5Rh6X0Q2CkU5BQpVR/view?usp=sharing)
 
+- van Kempen, N., Kwon, H.J., Nguyen, D.T. and Berger, E.D., 2025, November. It’s not easy being green: On the energy efficiency of programming languages. In 2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE) (pp. 1553-1565), [PDF](https://ieeexplore.ieee.org/iel8/11334056/11334198/11334459.pdf?casa_token=t08I-fNWuZ8AAAAA:G2e3BTtrOYyF5DlCha8wEUVbXFKH2W7PFcLcoGdKQ1A_2w3ypDr3D48y5OmVDeB_O851_vQH4iwi0A)
+
 #### 2024
 
 - Alizadeh, N., & Castor, F. (2024, April). **Green AI: A Preliminary Empirical Study on Energy Consumption in DL Models Across Different Runtime Infrastructures**. In Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI (pp. 134-139). [PDF](https://drive.google.com/file/d/15oCpN6n0rGM8peiHjlvxztCyzTPqfUIX/view?usp=sharing)
@@ -131,7 +137,6 @@ This list has been initially compiled in [this](https://arxiv.org/abs/2603.21772
 - Malavolta, I., Stoico, V., & Lago, P. (2024). **Ten Years of Teaching Empirical Software Engineering in the Context of Energy-Efficient Software**. In Handbook on Teaching Empirical Software Engineering (pp. 209-253). Cham: Springer Nature Switzerland. [PDF](https://drive.google.com/file/d/1Qon0oaWiPbfUhSjRiDXipqIfubRNKUWm/view?usp=sharing)
 
 - Balanza-Martinez, J., Lago, P., & Verdecchia, R. (2024). **Tactics for software energy efficiency: a review**. In Environmental Informatics (pp. 115-140). Springer, Cham. [PDF](https://drive.google.com/file/d/1y8OJHf9_Jh_Ht7sByuK-uqMcGAUcRrC2/view?usp=sharing)
-
 
 #### 2023
 
