@@ -98,76 +98,72 @@ This list has been initially compiled in [this](https://arxiv.org/abs/2603.21772
 | _Green Software Engineering Done Right_                         | **Online article** with guidance on how researchers can organize experiments in energy efficiency.                                                                           | [LINK](https://luiscruz.github.io/2021/10/10/scientific-guide.html)                                                                              |
 | _Measuring the Emissions -- Energy Footprint of the ICT Sector_ | **World Bank report** about energy consumption and greenhouse gas emissions worldwide.                                                                                       | [LINK](https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859712a98880541a4b71d57876048abb.pdf)                               |
 
-### Academic Papers
+### Energy Measurement & Tooling
 
-#### 2026
+- Diamond, Jeremy, and Vincenzo Stoico. "What Is the Cost of Energy Monitoring? An Empirical Study on the Overhead of RAPL-Based Tools." arXiv preprint, EASE 2026. https://arxiv.org/pdf/2604.26815  
+- Cannizza, M. B., & Albonico, M. (2026). A Curated List of Open-source Software-only Energy Efficiency Measurement Tools: A GitHub Mining Study. https://arxiv.org/pdf/2603.21772  
+- Noureddine, A. (2022). Powerjoular and joularjx: Multi-platform software power monitoring tools. https://drive.google.com/file/d/1d7EQINwiyAZkiWYUhN0HrExAyfNMZmQo/view  
+- Noureddine, A., Rouvoy, R., & Seinturier, L. (2013). A review of energy measurement approaches. https://drive.google.com/file/d/1NF-cFS2Q-3u07t0iq-ekju028mgG6bt2/view  
+- Castor, F. (2024). Estimating the Energy Footprint of Software Systems: a Primer. https://drive.google.com/file/d/1PU6qGX_SeSDfB340c2yLCpBTItspm3ta/view  
 
-- Diamond, Jeremy, and Vincenzo Stoico. "What Is the Cost of Energy Monitoring? An Empirical Study on the Overhead of RAPL-Based Tools." arXiv preprint, EASE 2026, [PDF](https://arxiv.org/pdf/2604.26815)
-- Cannizza, M. B., & Albonico, M. (2026). **A Curated List of Open-source Software-only Energy Efficiency Measurement Tools: A GitHub Mining Study**. Accepted at GreenArch Workshop@ICSA [PDF](https://arxiv.org/pdf/2603.21772)
-- Mehditabar, Mohammadjavad, Saurabhsingh Rajput, and Tushar Sharma. "A Validated Taxonomy on Software Energy Smells.", [PDF](https://arxiv.org/pdf/2604.04809)
-- Solovyeva, L. and Castor, F., 2026. Towards Green AI: Decoding the Energy of LLM Inference in Software Development [PDF](https://arxiv.org/pdf/2602.05712)
+---
 
-#### 2025
+### Energy Efficiency of Programming Languages & Code
 
-Stoico, V., Dragomir A. C., and Lago P.. "An empirical study on the performance and energy usage of compiled python code." In Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering, [PDF](https://dl.acm.org/doi/pdf/10.1145/3756681.3756972)
+- van Kempen, N., Kwon, H.J., Nguyen, D.T., & Berger, E.D. (2025). It’s not easy being green: On the energy efficiency of programming languages. https://ieeexplore.ieee.org/iel8/11334056/11334198/11334459.pdf  
+- Pereira, R., Couto, M., Ribeiro, F., Rua, R., Cunha, J., Fernandes, J. P., & Saraiva, J. (2021). Ranking programming languages by energy efficiency. https://drive.google.com/file/d/16slGmoEv2Hsg9s3FvKE12o6pFfUzeTe9/view  
+- Stoico, V., Dragomir, A. C., & Lago, P. (2025). An empirical study on the performance and energy usage of compiled python code. https://dl.acm.org/doi/pdf/10.1145/3756681.3756972  
+- Verdecchia, R., Procaccianti, G., & Lago, P. (2018). Empirical evaluation of the energy impact of refactoring code smells. https://drive.google.com/file/d/1wn_e5kTz-85fWV2h-OtZdhsBu1n-oD10/view  
 
-- Apsan, Radu, Vincenzo Stoico, Michel Albonico, Rudra Dhar, Karthik Vaidhyanathan, and Ivano Malavolta. "Generating Energy-Efficient Code via Large-Language Models--Where are we now?.", [PDF](https://arxiv.org/pdf/2509.10099?)
+---
 
-- Lago, Patricia, and Ivano Malavolta. "A New Vision on Software Sustainability and Its Engineering." IEEE Software 43, [PDF](https://ieeexplore.ieee.org/iel8/52/11316879/11316890.pdf?casa_token=fM9OxXXP_ycAAAAA:Gk8eU2Zt1jnLbxjULkE8Cb4YLfXFdjcGl-7PC0VEPS9A1zMwss4IFDgnLa_nYsOJ3C1agPMQFbMQLw)
+### AI, LLMs & Green AI
 
-- Poenaru-Olaru, L., Sallou, J., Cruz, L., Rellermeyer, J., & van Deursen, A. (2025). **Sustainable Machine Learning Retraining: Optimizing Energy Efficiency Without Compromising Accuracy**. arXiv preprint arXiv:2506.13838. [PDF](https://drive.google.com/file/d/1uFizKXssrtm2eLDhA1cn2H7zf2lrS8xk/view?usp=sharing)
+- Solovyeva, L. and Castor, F. (2026). Towards Green AI: Decoding the Energy of LLM Inference in Software Development. https://arxiv.org/pdf/2602.05712  
+- Solovyeva, L., Weidmann, S., & Castor, F. (2025). AI-Powered, But Power-Hungry? Energy Efficiency of LLM-Generated Code. https://drive.google.com/file/d/1wt7VxQw-HdkdWw_5Rh6X0Q2CkU5BQpVR/view  
+- Apsan, Radu, Vincenzo Stoico, Michel Albonico, Rudra Dhar, Karthik Vaidhyanathan, and Ivano Malavolta. (2025). Generating Energy-Efficient Code via Large-Language Models--Where are we now? https://arxiv.org/pdf/2509.10099  
+- Alizadeh, N., & Castor, F. (2024). Green AI: A Preliminary Empirical Study on Energy Consumption in DL Models Across Different Runtime Infrastructures. https://drive.google.com/file/d/15oCpN6n0rGM8peiHjlvxztCyzTPqfUIX/view  
+- Poenaru-Olaru, L., Sallou, J., Cruz, L., Rellermeyer, J., & van Deursen, A. (2025). Sustainable Machine Learning Retraining: Optimizing Energy Efficiency Without Compromising Accuracy. https://drive.google.com/file/d/1uFizKXssrtm2eLDhA1cn2H7zf2lrS8xk/view  
 
-- Christensen, H. B., Kirkeby, M. H., Thomsen, B., & Thomsen, L. L. (2025). **Teaching Energy-Efficient Software--An Experience Report**. arXiv preprint arXiv:2504.19707. [PDF](https://drive.google.com/file/d/1AWakwMdjqndOk87s_7Ym_KO5940o9_rU/view?usp=sharing)
+---
 
-- Conrardy, A., Sulejmani, A., Guerlain, C., Pagani, D., Hick, D., Satta, M., & Cabot, J. (2025). **Low-code to fight climate change: the Climaborough project**. arXiv preprint arXiv:2506.14623. [PDF](https://drive.google.com/file/d/1I4XfVyv7oXxu9mSs0ajhQjJvHwBub_Ez/view?usp=sharing)
+### Software Engineering Practices for Energy Efficiency
 
-- Maquoi, J., Cauz, M., Vanderose, B., & Devroey, X. (2025, June). **Energy Codesumption, Leveraging Test Execution for Source Code Energy Consumption Analysis**. In 33rd ACM International Conference on the Foundations of Software Engineering. ACM Press. [PDF](https://drive.google.com/file/d/1RlwV0YzUF0IvUTjBcJSDjMSFByYr9Dsw/view?usp=sharing)
+- Mehditabar, Mohammadjavad, Saurabhsingh Rajput, and Tushar Sharma. (2026). A Validated Taxonomy on Software Energy Smells. https://arxiv.org/pdf/2604.04809  
+- Maquoi, J., Cauz, M., Vanderose, B., & Devroey, X. (2025). Energy Codesumption, Leveraging Test Execution for Source Code Energy Consumption Analysis. https://drive.google.com/file/d/1RlwV0YzUF0IvUTjBcJSDjMSFByYr9Dsw/view  
+- Verdecchia, R., Cruciani, E., Bertolino, A., & Miranda, B. (2025). Energy-Aware Software Testing. https://drive.google.com/file/d/1OZ7GbZw6JzSBYN1zAU-ja891og-fi_oK/view  
+- Vos, S., Lago, P., Verdecchia, R., & Heitlager, I. (2022). Architectural tactics to optimize software for energy efficiency in the public cloud. https://drive.google.com/file/d/1GiicgOT3J6HsAF6cGVmzX4cqTCpblzlT/view  
+- Stoico, V., Cortellessa, V., Malavolta, I., Di Pompeo, D., Pomante, L., & Lago, P. (2023). An approach using performance models for supporting energy analysis of software systems. https://drive.google.com/file/d/1P6j5L8LdZLhOPwEvxXq9lwim58sGrkp3/view  
+- Couto, M., Maia, D., Saraiva, J., & Pereira, R. (2020). On energy debt: managing consumption on evolving software. https://drive.google.com/file/d/1M-poWUVdzPYK87VsDr81wmgHAjbOvKJB/view  
 
-- Verdecchia, R., Cruciani, E., Bertolino, A., & Miranda, B. (2025, April). **Energy-Aware Software Testing**. In 2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER) (pp. 101-105). IEEE. [PDF](https://drive.google.com/file/d/1OZ7GbZw6JzSBYN1zAU-ja891og-fi_oK/view?usp=sharing)
+---
 
-- Solovyeva, L., Weidmann, S., & Castor, F. (2025). **AI-Powered, But Power-Hungry? Energy Efficiency of LLM-Generated Code**. arXiv preprint arXiv:2502.02412. [PDF](https://drive.google.com/file/d/1wt7VxQw-HdkdWw_5Rh6X0Q2CkU5BQpVR/view?usp=sharing)
+### Sustainability, Green Software & Vision Papers
 
-- van Kempen, N., Kwon, H.J., Nguyen, D.T. and Berger, E.D., 2025, November. It’s not easy being green: On the energy efficiency of programming languages. In 2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE) (pp. 1553-1565), [PDF](https://ieeexplore.ieee.org/iel8/11334056/11334198/11334459.pdf?casa_token=t08I-fNWuZ8AAAAA:G2e3BTtrOYyF5DlCha8wEUVbXFKH2W7PFcLcoGdKQ1A_2w3ypDr3D48y5OmVDeB_O851_vQH4iwi0A)
+- Lago, Patricia, and Ivano Malavolta. (2025). A New Vision on Software Sustainability and Its Engineering. https://ieeexplore.ieee.org/iel8/52/11316879/11316890.pdf  
+- Verdecchia, R., Lago, P., Ebert, C., & De Vries, C. (2021). Green IT and green software. https://drive.google.com/file/d/1sbLFYm06mJRzUg8oDUR4eu5wp-WcIyA-/view  
+- Fonseca, A., Kazman, R., & Lago, P. (2019). A manifesto for energy-aware software. https://drive.google.com/file/d/1wrmUb8JZEI017xbnNl3ceS_Mbgo_g4bf/view  
+- Pinto, G., & Castor, F. (2017). Energy efficiency: a new concern for application software developers. https://drive.google.com/file/d/1gdgfNSWDxmMBdHUho-8RjLXAnEdKYYJU/view  
 
-#### 2024
+---
 
-- Alizadeh, N., & Castor, F. (2024, April). **Green AI: A Preliminary Empirical Study on Energy Consumption in DL Models Across Different Runtime Infrastructures**. In Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering-Software Engineering for AI (pp. 134-139). [PDF](https://drive.google.com/file/d/15oCpN6n0rGM8peiHjlvxztCyzTPqfUIX/view?usp=sharing)
+### Education & Teaching
 
-- Castor, F. (2024). **Estimating the Energy Footprint of Software Systems: a Primer**. arXiv preprint arXiv:2407.11611. [PDF](https://drive.google.com/file/d/1PU6qGX_SeSDfB340c2yLCpBTItspm3ta/view?usp=sharing)
+- Christensen, H. B., Kirkeby, M. H., Thomsen, B., & Thomsen, L. L. (2025). Teaching Energy-Efficient Software--An Experience Report. https://drive.google.com/file/d/1AWakwMdjqndOk87s_7Ym_KO5940o9_rU/view  
+- Malavolta, I., Stoico, V., & Lago, P. (2024). Ten Years of Teaching Empirical Software Engineering in the Context of Energy-Efficient Software. https://drive.google.com/file/d/1Qon0oaWiPbfUhSjRiDXipqIfubRNKUWm/view  
 
-- Malavolta, I., Stoico, V., & Lago, P. (2024). **Ten Years of Teaching Empirical Software Engineering in the Context of Energy-Efficient Software**. In Handbook on Teaching Empirical Software Engineering (pp. 209-253). Cham: Springer Nature Switzerland. [PDF](https://drive.google.com/file/d/1Qon0oaWiPbfUhSjRiDXipqIfubRNKUWm/view?usp=sharing)
+---
 
-- Balanza-Martinez, J., Lago, P., & Verdecchia, R. (2024). **Tactics for software energy efficiency: a review**. In Environmental Informatics (pp. 115-140). Springer, Cham. [PDF](https://drive.google.com/file/d/1y8OJHf9_Jh_Ht7sByuK-uqMcGAUcRrC2/view?usp=sharing)
+### Systems, Platforms & Applications
 
-#### 2023
+- Conrardy, A., Sulejmani, A., Guerlain, C., Pagani, D., Hick, D., Satta, M., & Cabot, J. (2025). Low-code to fight climate change: the Climaborough project. https://drive.google.com/file/d/1I4XfVyv7oXxu9mSs0ajhQjJvHwBub_Ez/view  
 
-- Stoico, V., Cortellessa, V., Malavolta, I., Di Pompeo, D., Pomante, L., & Lago, P. (2023, June). **An approach using performance models for supporting energy analysis of software systems**. In European Workshop on Performance Engineering (pp. 249-263). Cham: Springer Nature Switzerland. [PDF](https://drive.google.com/file/d/1P6j5L8LdZLhOPwEvxXq9lwim58sGrkp3/view?usp=sharing)
+---
 
-#### 2022
+### Reviews & Surveys
 
-- Noureddine, A. (2022, June). **Powerjoular and joularjx: Multi-platform software power monitoring tools**. In 2022 18th International Conference on Intelligent Environments (IE) (pp. 1-4). IEEE. [PDF](https://drive.google.com/file/d/1d7EQINwiyAZkiWYUhN0HrExAyfNMZmQo/view?usp=sharing)
+- Balanza-Martinez, J., Lago, P., & Verdecchia, R. (2024). Tactics for software energy efficiency: a review. https://drive.google.com/file/d/1y8OJHf9_Jh_Ht7sByuK-uqMcGAUcRrC2/view  
 
-- Vos, S., Lago, P., Verdecchia, R., & Heitlager, I. (2022, June). **Architectural tactics to optimize software for energy efficiency in the public cloud**. In 2022 International Conference on ICT for Sustainability (ICT4S) (pp. 77-87). IEEE. [PDF](https://drive.google.com/file/d/1GiicgOT3J6HsAF6cGVmzX4cqTCpblzlT/view?usp=sharing)
-
-#### 2021
-
-- Pereira, R., Couto, M., Ribeiro, F., Rua, R., Cunha, J., Fernandes, J. P., & Saraiva, J. (2021). **Ranking programming languages by energy efficiency**. Science of Computer Programming, 205, 102609. [PDF](https://drive.google.com/file/d/16slGmoEv2Hsg9s3FvKE12o6pFfUzeTe9/view?usp=sharing)
-
-- Verdecchia, R., Lago, P., Ebert, C., & De Vries, C. (2021). **Green IT and green software**. IEEE Software, 38(6), 7-15. [PDF](https://drive.google.com/file/d/1sbLFYm06mJRzUg8oDUR4eu5wp-WcIyA-/view?usp=sharing)
-
-#### 2020
-
-- Couto, M., Maia, D., Saraiva, J., & Pereira, R. (2020, June). **On energy debt: managing consumption on evolving software**. In Proceedings of the 3rd International Conference on Technical Debt (pp. 62-66). [PDF](https://drive.google.com/file/d/1M-poWUVdzPYK87VsDr81wmgHAjbOvKJB/view?usp=sharing)
-
-#### Older
-
-- Fonseca, A., Kazman, R., & Lago, P. (2019). **A manifesto for energy-aware software**. IEEE Software, 36(6), 79-82. [PDF](https://drive.google.com/file/d/1wrmUb8JZEI017xbnNl3ceS_Mbgo_g4bf/view?usp=sharing)
-
-- Verdecchia, R., Procaccianti, G., & Lago, P. (2018). **Empirical evaluation of the energy impact of refactoring code smells**. In 5th International Conference on Information and Communication Technology for Sustainability. ICT4S2018 (pp. 365-383). EasyChair. [PDF](https://drive.google.com/file/d/1wn_e5kTz-85fWV2h-OtZdhsBu1n-oD10/view?usp=sharing)
-
-- Pinto, G., & Castor, F. (2017). **Energy efficiency: a new concern for application software developers**. Communications of the ACM, 60(12), 68-75. [PDF](https://drive.google.com/file/d/1gdgfNSWDxmMBdHUho-8RjLXAnEdKYYJU/view?usp=sharing)
-
-- Noureddine, A., Rouvoy, R., & Seinturier, L. (2013). **A review of energy measurement approaches**. ACM SIGOPS Operating Systems Review, 47(3), 42-49. [PDF](https://drive.google.com/file/d/1NF-cFS2Q-3u07t0iq-ekju028mgG6bt2/view?usp=sharing)
 
 ## Considerações
 
