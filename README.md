@@ -102,6 +102,7 @@ This list has been initially compiled in [this](https://arxiv.org/abs/2603.21772
 
 #### 2026
 
+- Diamond, Jeremy, and Vincenzo Stoico. "What Is the Cost of Energy Monitoring? An Empirical Study on the Overhead of RAPL-Based Tools." arXiv preprint, EASE 2026, [PDF](https://arxiv.org/pdf/2604.26815)
 - Cannizza, M. B., & Albonico, M. (2026). **A Curated List of Open-source Software-only Energy Efficiency Measurement Tools: A GitHub Mining Study**. Accepted at GreenArch Workshop@ICSA [PDF](https://arxiv.org/pdf/2603.21772)
 - Mehditabar, Mohammadjavad, Saurabhsingh Rajput, and Tushar Sharma. "A Validated Taxonomy on Software Energy Smells.", [PDF](https://arxiv.org/pdf/2604.04809)
 - Solovyeva, L. and Castor, F., 2026. Towards Green AI: Decoding the Energy of LLM Inference in Software Development [PDF](https://arxiv.org/pdf/2602.05712)
